@@ -1,0 +1,88 @@
+@font-face {
+	font-family:segoe;
+	src:url('../font/segoeui.ttf');
+}
+.main{
+	width: 980px;
+	margin: auto;
+	margin-bottom: 70px;
+	overflow: hidden;
+	font-family: segoe;
+}
+.leftMain,.rightMain{
+	float: left;
+}
+.navTitle{
+	color: #474747;
+	font-size: 20px;
+	margin:122px 0 20px 0;
+}
+.leftNav{
+	list-style-type: none;
+}
+.leftNav li{
+	font-family: segoe;
+	font-weight: 100;
+	color: #333333;
+	font-size: 12px;
+	line-height: 38px;
+	border-bottom: solid 1px #cacaca;
+	width: 170px;
+	padding-left: 26px;
+	cursor: pointer;
+}
+.leftNav li:hover{
+	color: #dd0d42;
+	transition: .3s;
+}
+.leftNav .index{
+	background: url(../img/red_arrow.png) no-repeat;
+	background-position: left;
+	color: #dd0d42;
+}
+.rightMain{
+	margin-left: 52px;
+	width: 732px;
+}
+.rightTitle{
+	 font-size: 30px;
+	 border-bottom: solid 1px #cacaca;
+	 width: 100%;
+	 margin-top: 43px;
+	 padding-bottom: 28px;
+}
+.subTitle{
+	color: #047dab;
+	font-size: 20px;
+	border-bottom: dotted 1px #c1c1c1;
+	padding: 12px 0 10px 0;
+}
+.titlePic{
+	width: 732px;
+	margin: 36px 0 33px 0;
+}
+.titleText{
+	font-size: 14px;
+	line-height: 28px;
+	padding-bottom: 46px;
+}
+.partTitle{
+	color: #047d9f;
+	font-size: 18px;
+	line-height: 42px;
+	border-top: dotted 1px #c1c1c1;
+	border-bottom: dotted 1px #c1c1c1;
+}
+.partContent{
+	margin: 22px 0;
+	position: relative;
+	overflow: hidden;
+}
+.partContent p{
+	font-size: 13px;
+	line-height: 28px;
+}
+.partContent span{
+	color:#047d9f; 
+	font-size:1.5em;
+}

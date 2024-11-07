@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/footer.css" />
+		<link rel="stylesheet" href="../css/ch.css" />
+	</head>
+
+	<body>
+		<footer>
+			<div class="footerNav">
+				<div class="logis">
+					<a class="projectLogis">
+						<img src="../img/ch-projectLogis.png" />
+					</a>
+					<a class="chinaLogis">
+						<img src="../img/ch-chinaLogis.png" />
+					</a>
+				</div>
+				<div class="transport">
+					<a class="network">
+						<img src="../img/networks.png" /><br />
+						<span>网络</span>
+					</a>
+					<a class="air">
+						<img src="../img/air.png" /><br />
+						<span>空运</span>
+					</a>
+					<a class="ocean">
+						<img src="../img/ocean.png" /><br />
+						<span>海运</span>
+					</a>
+					<a class="ground">
+						<img src="../img/ground.png" /><br />
+						<span>陆运</span>
+					</a>
+				</div>
+			</div>
+			<div class="addr">
+				<div class="company">桥仕（上海）国际货运代理有限公司</div>
+				<div class="addrText">中国上海市浦东新区施湾七路997号4号楼212室</div>
+				<div class="addrText">邮编:201202&nbsp;&nbsp;&nbsp;电话:+86 21 50550590&nbsp;&nbsp;&nbsp;邮箱:toby.sun@go2ycslogistics.com</div>
+				<div class="addrText">©2017 桥仕（上海）国际货运代理有限公司.保留所有权利.</div>
+			</div>
+		</footer>
+	</body>
+	<script src="../js/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$('.projectLogis').click(function(){
+				window.parent.location.href="projectLogistics.html";
+			})
+			$('.chinaLogis').click(function(){
+				window.parent.location.href="chinaLogistics.html";
+			})
+			$('.network').click(function(){
+				window.parent.location.href="introduction.html";
+			})
+			$('.air').click(function(){
+				window.parent.location.href="airFreight.html";
+			})
+			$('.ocean').click(function(){
+				window.parent.location.href="oceanFreight.html";
+			})
+			$('.ground').click(function(){
+				window.parent.location.href="chinaLogistics.html";
+			})
+		})
+	</script>
+</html>

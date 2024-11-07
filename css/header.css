@@ -1,0 +1,72 @@
+@font-face {
+	font-family:segoeb;
+	src:url('../font/segoeuib.ttf');
+}
+header{
+	border-bottom: solid 5px #dd0b42;
+	width: 100%;
+	height: 100px;
+}
+header a{
+	text-decoration: none;
+	color: #000;
+}
+header .current{
+	color: #dd0d42;
+}
+nav{
+	width: 983px;
+	margin: auto; 
+	position: relative;
+}
+.logo{
+	margin-top: 38px;
+	float: left;
+}
+.navContainer{
+	float: right;
+}
+.translate{
+	float: right;
+	width: 113px;
+	height: 16px;
+	margin-top: 1px;
+	overflow: hidden;
+}
+.CH,.EN{
+	width: 56px;
+	height: 16px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+.EN{
+	background:url(../img/ENGLISH.png) #c40015;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 4px 0 0 4px;
+	float: left;
+}
+.CH{
+	background:url(../img/CHINESE.png) #8b8b8b;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 0 4px 4px 0;
+	float: right;
+}
+.navList{
+	list-style-type: none;
+	margin-top: 45px;
+	font-size: 16px;
+}
+.navList li{
+	float: right;
+	margin-left: 48px;
+	font-weight: bold;
+	cursor: pointer;
+	font-family: segoeb;
+}
+.navList li:hover{
+	color: #dd0d42;
+	transition: .3s;
+}

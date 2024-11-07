@@ -1,0 +1,15 @@
+.CH{
+	background-color: #c40015;
+}
+.EN{
+	background-color: #8b8b8b;
+}
+.leftNav li{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	font-weight: normal;
+}
+footer .company,footer .addrText,footer .transport{
+	font-family: "microsoft yahei";
+}
+

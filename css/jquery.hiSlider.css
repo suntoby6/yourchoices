@@ -1,0 +1,102 @@
+/* jquery.hiSlider.css */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+li img {
+	display: block;
+	margin: 0 auto;
+}
+
+.banner {
+	background: #fefefe;
+	width: 1335px;
+	margin: auto;
+}
+
+.hiSlider {
+	overflow: hidden;
+	height: 547px;
+	width: 100%;
+	background: #eee;
+}
+
+.hiSlider-item {
+	float: left;
+}
+
+.hiSlider-pages,
+.hiSlider-title {
+	position: absolute;
+	z-index: 3;
+}
+
+.hiSlider-btn-prev,
+.hiSlider-btn-next {
+	position: absolute;
+	z-index: 5;
+	top: 50%;
+	height: 46px;
+	width: 46px;
+	background: url(../img/hislider-arrow.png) no-repeat;
+	margin-top: -10px;
+	text-indent: -200px;
+	overflow: hidden;
+	opacity: .6;
+	filter: alpha(opacity:80);
+}
+
+.hiSlider-btn-prev {
+	left: 14px;
+}
+
+.hiSlider-btn-next {
+	right: 14px;
+	background-position: -46px 0;
+}
+
+.hiSlider-btn-prev:hover,
+.hiSlider-btn-next:hover {
+	opacity: 1;
+	transition: .3s;
+	filter: alpha(opacity:100);
+}
+
+.hiSlider-title {
+	bottom: 0;
+	width: 100%;
+	padding: 6px 0;
+	color: #fff;
+	text-indent: 10px;
+	background: rgba(0, 0, 0, .6);
+	z-index: 2;
+	font: 14px/2 "Microsoft YaHei", "Arial", "Tahoma"
+}
+
+.hiSlider-pages {
+	bottom: 10px;
+	right: 10px;
+	text-align: right;
+}
+
+.hiSlider-pages a {
+	height: 8px;
+	width: 8px;
+	margin: 0 6px;
+	display: inline-block;
+	overflow: hidden;
+	text-indent: -100px;
+	font-size: 0;
+	border-radius: 50%;
+	background: #ddd;
+}
+
+.hiSlider-pages a.active {
+	background: #ffe903;
+}

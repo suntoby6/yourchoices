@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/footer.css" />
+	</head>
+
+	<body>
+		<footer>
+			<div class="footerNav">
+				<div class="logis">
+					<a class="projectLogis">
+						<img src="../img/projectLogis.png" />
+					</a>
+					<a class="chinaLogis">
+						<img src="../img/chinaLogis.png" />
+					</a>
+				</div>
+				<div class="transport">
+					<a class="network">
+						<img src="../img/networks.png" /><br />
+						<span>Networks</span>
+					</a>
+					<a class="air">
+						<img src="../img/air.png" /><br />
+						<span>Air Freight</span>
+					</a>
+					<a class="ocean">
+						<img src="../img/ocean.png" /><br />
+						<span>Ocean Freight</span>
+					</a>
+					<a class="ground">
+						<img src="../img/ground.png" /><br />
+						<span>Ground Freight</span>
+					</a>
+				</div>
+			</div>
+			<div class="addr">
+				<div class="company">Your Choices Logistics（SHANGHAI）LTD.</div>
+				<div class="addrText"> ROOM 212 BUILDING 4, 7TH SHIWAN ROAD, PUDONG, SHANGHAI, 201202, CHINA.</div>
+				<div class="addrText">Tel:+86 21 50550590&nbsp;&nbsp;&nbsp;Email:toby.sun@go2ycslogistics.com</div>
+				<div class="addrText">©2017 Your Choice Logistics.All rights reserved.</div>
+			</div>
+		</footer>
+	</body>
+	<script src="../js/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$('.projectLogis').click(function(){
+				window.parent.location.href="projectLogistics.html";
+			})
+			$('.chinaLogis').click(function(){
+				window.parent.location.href="chinaLogistics.html";
+			})
+			$('.network').click(function(){
+				window.parent.location.href="introduction.html";
+			})
+			$('.air').click(function(){
+				window.parent.location.href="airFreight.html";
+			})
+			$('.ocean').click(function(){
+				window.parent.location.href="oceanFreight.html";
+			})
+			$('.ground').click(function(){
+				window.parent.location.href="chinaLogistics.html";
+			})
+		})
+	</script>
+</html>
